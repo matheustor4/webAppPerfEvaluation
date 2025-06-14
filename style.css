@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: 'Lato', sans-serif; /* Define a fonte padrão como Lato */
+}
+
+.container {
+    display: flex;
+    width: 1420px; /* Defina a largura desejada */
+    height: 420px; /* Defina a altura desejada */
+}
+
+#meuCanvas,#meuEstado {
+    border: 1px solid #ccc;
+    margin: 10px;
+}
+
+
+#meuGrafico {
+    border: 1px solid #ccc;
+    margin: 10px;
+    width: 600px;
+    height: 400px;
+}
+
+.controls {
+    display: flex; /* Alinha os divs em linha */
+    justify-content: center; /* Centraliza os divs horizontalmente */
+    margin-top: 20px;
+}
+
+.actions, .simulation {
+    margin: 0 10px; /* Adiciona espaço entre os divs */
+    text-align: center;
+}
+
+.actions button, .simulation button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: inherit;
+}
