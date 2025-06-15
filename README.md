@@ -1,7 +1,7 @@
 # webAppPerfEvaluation
 Code for the web app for performance evaluation of a MQTT system under VM migration and Memory DoS.
 
-### Experiment Scenarios and Setup
+## Data acquisition to use as input for the tool
 
 For all experiments, we'll use the MQTT benchmark to reproduce the performance evaluation. You can find the benchmark here:
 
@@ -9,7 +9,7 @@ https://github.com/krylovsk/mqtt-benchmark
 
 We'll run the following four distinct scenarios to evaluate performance under various conditions:
 
-## Scenarios
+### Scenarios
 
 **No Migration No Attack (NMNA)**
 
