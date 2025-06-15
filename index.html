@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Migration vs attack</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"> -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+        
+        </head>
+<body>
+    <div class="container">
+        <canvas id="meuEstado" width="200" height="400"></canvas>
+        <canvas id="meuCanvas" width="400" height="400"></canvas>
+        <canvas id="meuGrafico" width="600" height="400"></canvas>
+    </div>
+    <div class="controls">
+        <div class="actions">
+            <h2>Actions</h2>
+            <button id="startMigration">Start Migration</button>
+            <button id="stopMigration">Stop Migration</button>
+            <button id="startAttack">Start Attack</button>
+            <button id="stopAttack">Stop Attack</button>
+        </div>
+        <div class="simulation">
+            <h2>Simulation</h2>
+            <!-- <button id="play"><span role="img" aria-label="Play">▶️</span></button> -->
+            <button id="play" class="md-icon-button" title="Play">
+                <span class="material-icons">play_arrow</span>
+            </button> 
+            <!-- <button id="pause"><span role="img" aria-label="Pause">⏸️</span></button> 
+            <button id="stop"><span role="img" aria-label="Stop">⏹️</span></button> -->
+            <button id="pause" class="md-icon-button" title="Pause">
+                <span class="material-icons">pause</span>
+            </button>
+            <button id="stop" class="md-icon-button" title="Stop">
+                <span class="material-icons">stop</span>
+            </button>
+        </div>
+    </div>
+    <div id="error-messages"></div>
+    <script src="script.js"></script>
+</body>
+</html>
