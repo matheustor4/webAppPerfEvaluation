@@ -224,7 +224,7 @@ function atualizarGrafico(dados) {
 
     console.log("entrei atualiza grafico");
 
-    if (pontoAleatorio.media + pontoAleatorio.desvioPadrao > delayValue) {
+    if (pontoAleatorio.maxV > delayValue) {
         violations++;
         updateViolationsDisplay();
     }
